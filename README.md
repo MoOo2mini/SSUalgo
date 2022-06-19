@@ -6,10 +6,11 @@
 
 참여자
 
-**김지은 **. 
+**김지은 **  
 	> github link :  
-    > boj id :   
-**권민선**
+	> boj id :  
+	
+**권민선**  
 	> github link :   
     > boj id :   
 **이민희**. 
