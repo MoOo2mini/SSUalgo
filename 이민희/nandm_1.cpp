@@ -1,38 +1,39 @@
 #include <iostream>
+#define MAX 9
+
 using namespace std;
 
-void print(bool arr[], int size)
+int n, m;
+int arr[MAX] = {0,};
+bool visited[MAX] = {0,};
+
+void print()
 {
-    for (int i = 0; i < size; i++)
-    {
-        if (arr[i])
-            cout << i + 1;
-    }
+    for(int i = 0; i < m; i++)
+        cout << arr[i] << ' ';
+    cout << '\n';
+    return;
 }
 
-void nandm(bool arr[], int n, int m, int count){
+void dfs(int count){
     
     if (count == m)
-        print(arr, n);
+        print();
     for (int i = 0; i < n; i++)
     {
-        if (arr[i] == false)
-            arr[i] = true;
-        nandm(arr, n, m, count + 1);
-        arr[i] = false;
+        if (!visited[i])
+        {
+            visited[i] = true;
+            arr[count] = i + 1;
+            dfs(count + 1);
+            visited[i] = false;
+        }   
     }
 }
 
 int main()
 {
-    int n, m;
-    cin >> n;
-    cin >> m;
-
-    bool arr[n];
-    for (int i = 0; i < n; m++)
-        arr[i] = false;
-    
-    nandm(arr, n, m, 0);
+    cin >> n >> m;
+    dfs(0);
     return 0;
 }
