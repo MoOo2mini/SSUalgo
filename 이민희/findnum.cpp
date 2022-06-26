@@ -1,18 +1,20 @@
 #include <iostream>
-#define MAX 100000
+#include <algorithm>
+#include <cstring>
+
 using namespace std;
 
-
 int n, m;
-int *dest;
+int num;
+int dest[100000];
 
 int findnums(int target)
 {
     int low = 0;
-    int high = m - 1;
-    int mid = m / 2 + 1;
+    int high = n - 1;
+    int mid;
 
-    while(low <= high) {
+    while (low <= high) {
         mid = (low + high) / 2;
 
         if (dest[mid] == target)
@@ -25,59 +27,19 @@ int findnums(int target)
     return 0;
 }
 
-void quickSort(int *dest, int left, int right)
-{
-    if(left >= right){
-        // 원소가 1개인 경우
-        return; 
-    }
-    
-    int pivot = left;
-    int i = pivot + 1; // 왼쪽 출발 지점 
-    int j = right; // 오른쪽 출발 지점
-    int temp;
-    
-    while(i <= j){
-        // 포인터가 엇갈릴때까지 반복
-        while(i <= right && dest[i] <= dest[pivot]){
-            i++;
-        }
-        while(j > left && dest[j] >= dest[pivot]){
-            j--;
-        }
-        
-        if(i > j){
-            // 엇갈림
-            temp = dest[j];
-            dest[j] = dest[pivot];
-            dest[pivot] = temp;
-        }else{
-            // i번째와 j번째를 스왑
-            temp = dest[i];
-            dest[i] = dest[j];
-            dest[j] = temp;
-        }
-    } 
-    
-    // 분할 계산
-    quickSort(dest, left, j - 1);
-    quickSort(dest, j + 1, right);
-}
-
 int main()
 {
+    ios_base::sync_with_stdio(0); cin.tie(0);
     cin >> n;
-    dest = new int(n);
-    for (int i=0; i<n; i++)
-        cin >> *(dest + i);
-    
-    quickSort(dest, 0, n - 1);
+    for (int i=0; i<n; i++){
+        cin >> dest[i];
+    }
+    sort(dest, dest + n);
     
     cin >> m;
-    int *src = new int(m);
-    for (int i=0; i<m; i++)
-        cin >> *(src + i);
-    
-    for (int i=0; i<m; i++)
-        cout << findnums(*(src + i)) << endl;
+    for (int i=0; i<m; i++){
+        cin >> num;
+        cout << findnums(num) << "\n"; // endl의 경우 버퍼를 flush 하기 때문에 속도를 늦춘다.
+        // 따라서 endl -> "\n" 하는 것이 좋다.
+    }
 }
