@@ -15,7 +15,7 @@
       	> boj id :   
 **이민희**   
 	    		👉 github link : https://github.com/MoOo2mini    
-    	    		👉 boj id : minhee020 (silver3)    
+    	    👉 boj id : minhee020 (silver3)    
 	    		👉 velog : https://velog.io/@2mini     
 	      
 **이예슬**    
