@@ -37,7 +37,7 @@ int main()
 			cin >> nums[j][u];
 		for (int j = 1; j <= n; j++)
 			cin >> nums[j][d];
-		cout << find_maxSum(nums, n);
+		// cout << find_maxSum(nums, n);
 	}
 }
 
