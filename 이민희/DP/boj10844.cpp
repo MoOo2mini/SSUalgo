@@ -18,9 +18,9 @@ int main(){
     for(int i=2; i<=n; i++){
         for(int j=0; j<=9; j++){
             if(j == 0){
-                dp[i][j] = dp[i-1][j+1] % mod; // '0' 일 때, '1' 만 가능
+                dp[i][j] = dp[i-1][j+1] % mod; // 뒷자리가 0인 경우. 1 0만 가능
             } else if(j == 9){
-                dp[i][j] = dp[i-1][j-1] % mod; // '9' 일 때, '8' 만 가능
+                dp[i][j] = dp[i-1][j-1] % mod; // 뒷자리가 9인 경우. 8 9만 가능
             } else{
                 dp[i][j] = (dp[i-1][j-1] + dp[i-1][j+1]) % mod;
             }
