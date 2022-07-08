@@ -32,7 +32,7 @@
 	    
 **한서윤**   
 ```
-	👉 github link :   
-	👉 boj id :   
+	👉 github link : https://github.com/coolpiece
+	👉 boj id : audxkawjd17
 ```
 
