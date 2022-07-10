@@ -9,7 +9,7 @@
 👉 boj id : minhee020 
 👉 velog : https://velog.io/@2mini   
 ```
-_______    
+---------    
 **한서윤**   
 <img align='right' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=audxkawjd17">
 
@@ -17,4 +17,4 @@ _______
 👉 github link : https://github.com/coolpiece
 👉 boj id : audxkawjd17
 ```
-_______
+---------
