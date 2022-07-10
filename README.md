@@ -6,7 +6,6 @@
 
 참여자
 
-```
 **이민희**   
 <img align='right' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=minhee020">
 ```
