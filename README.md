@@ -5,9 +5,9 @@
 **이민희**   
 <img align='right' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=minhee020">
 ```
-	👉 github link : https://github.com/MoOo2mini    
-    	👉 boj id : minhee020 
-	👉 velog : https://velog.io/@2mini   
+👉 github link : https://github.com/MoOo2mini    
+👉 boj id : minhee020 
+👉 velog : https://velog.io/@2mini   
 ```
   
     
@@ -15,7 +15,7 @@
       
 **한서윤**   
 ```
-	👉 github link : https://github.com/coolpiece
-	👉 boj id : audxkawjd17
+👉 github link : https://github.com/coolpiece
+👉 boj id : audxkawjd17
 ```
 
