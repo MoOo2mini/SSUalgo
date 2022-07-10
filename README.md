@@ -22,6 +22,8 @@
 	👉 github link : https://github.com/MoOo2mini    
     	👉 boj id : minhee020 (silver2)    
 	👉 velog : https://velog.io/@2mini   
+	<img align='right' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=minhee020">
+
 ```
 	      
 **이예슬**    
