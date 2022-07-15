@@ -1,6 +1,7 @@
 # SSUalgo
 
 ### 숭실대학교 컴퓨터학부 학생들의 알고리즘 스터디입니다.
+<img src="https://img.shields.io/badge/C++-#00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
 
 **이민희**   
 <img align='right' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=minhee020">
