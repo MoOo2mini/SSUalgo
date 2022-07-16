@@ -9,7 +9,7 @@ const int MAX = 25;
 int N;
 int map[MAX][MAX] = { 0, };
 bool visited[MAX][MAX] = { 0, };
-int dy[] = { 0,0,1,-1 };
+int dy[] = { 0,0,1,-1 }; // --> 오 왼 위 아래 순서
 int dx[] = { 1,-1,0,0 };
 int label = 1;
 vector<int> v;
