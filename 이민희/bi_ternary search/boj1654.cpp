@@ -50,6 +50,5 @@ int main(){
 			right = mid - 1;
 		}
 	}
-
 	cout << ans << '\n';
 }
