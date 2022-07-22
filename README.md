@@ -19,3 +19,11 @@
 👉 boj id : audxkawjd17
 ```
 # 
+**이예슬**   
+<img align='right' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lur100">
+
+```
+👉 github link : https://github.com/yes-ee
+👉 boj id : lur100
+```
+# 
