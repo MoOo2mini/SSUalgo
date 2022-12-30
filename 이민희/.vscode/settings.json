@@ -6,6 +6,9 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "__locale": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "string": "cpp",
+        "iosfwd": "cpp",
+        "algorithm": "cpp"
     }
 }

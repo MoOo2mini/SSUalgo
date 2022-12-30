@@ -22,5 +22,9 @@ int main() {
         }
     }
 
+    if (c[n] == MAX){
+        cout << -1;
+        return 0;
+    }
     cout << c[n];
 }
