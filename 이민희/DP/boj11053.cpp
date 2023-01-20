@@ -1,24 +1,30 @@
 #include <iostream>
 using namespace std;
 
-int num[1001];
+int arr[1001];
 
 int main()
 {
-    int n, count, flag;
-
-    count = 1;
+    int n;
     cin >> n;
-    
-    for (int i = 0; i < n; i++)
-        cin >> num[i];
-    
-    flag = num[0];
-    for (int i = 0; i < n; i++)
-    {
-        if (num[i] > flag)
-            count++;
-        flag = num[i];
+
+    int dp[n];
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+        dp[i] = 1;
     }
-    cout << count << '\n';
+
+    int sum = 0;
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (arr[i] > arr[j]) {
+                dp[i] = max(dp[i], dp[j] + 1);
+            }
+
+            sum = max(sum, dp[i]);
+        }
+    }
+    
+    cout << sum;
 }
