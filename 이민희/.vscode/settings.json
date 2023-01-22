@@ -9,6 +9,9 @@
         "ios": "cpp",
         "string": "cpp",
         "iosfwd": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "ratio": "cpp"
     }
 }
