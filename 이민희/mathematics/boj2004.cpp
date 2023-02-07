@@ -19,5 +19,5 @@ int main() {
     }
 
     long long tmp = up / down;
-    while 
+    while
 }

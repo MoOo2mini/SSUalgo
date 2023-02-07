@@ -17,6 +17,35 @@ void reset() {
     }
 }
 
+void dfs(int v) {
+    visited[v] = 1;
+    cout << v << ' ';
+
+    for (int i = 1; i <= n; i++) {
+        if (map[v][i] == 1 && visited[i] == 0) {
+            dfs(i);
+        }
+    }
+}
+
+void bfs(int v) {
+    visited[v] = 1;
+    q.push(v);
+    
+    while (!q.empty()) {
+        v = q.front();
+        q.pop();
+
+        for (int w = 1; w <= n; w++) {
+            if (map[v][w] == 1 && visited[w] == 0) {
+                q.push(w);
+                visited[w] = 1;
+                cout << w << ' ';
+            }
+        }
+    }
+}
+
 void DFS(int v)
 {
     visited[v] = 1;
@@ -24,7 +53,7 @@ void DFS(int v)
 
     for (int i = 1; i <= n; i++){
         if (map[v][i] == 1 && visited[i] == 0) // 인접정점 중 방문하지 않은 것.
-            DFS(i);
+            DFS(i); // stack에 함수가 쌓이고 있음.
     }
 }
 
