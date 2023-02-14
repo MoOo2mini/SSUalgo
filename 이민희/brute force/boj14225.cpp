@@ -30,8 +30,8 @@ void dfs(int cnt, int idx) {
 }
 
 int main() {
-    string s = "test";
-    cout << s.find("es");
+    vector<int> test = {1, 2, 3};
+    cout << test.in(3) << endl;
     cin >> n;
     int tmp;
     for (int i = 0; i < n; i++) {

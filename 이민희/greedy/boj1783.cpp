@@ -1,16 +1,18 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main () {
+    // fast i/o
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
+    cin.tie(nullptr);
 
-    long long n, m;
-    cin >> n >> m;
-
-    bool visited[n][m];
-    memset(visited, 0, n * m * sizeof(bool));
-
+    // n = 세로, m = 가로
+    int n, m;
     
+    cin >> n >> m;
+        
+    if (n == 1) cout << 1;
+    else if (n == 2) cout << min(4, (m + 1) / 2);
+    else if (m < 7) cout << min(4, m);
+    else cout << m - 2;
 }
