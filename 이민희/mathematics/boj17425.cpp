@@ -1,24 +1,22 @@
 #include <iostream>
-#include <vector>
 using namespace std;
+const int MAX = 1000001;
+long long arr[MAX];
 
 int main() {
-    int n, t;
-    vector<int> v;
-    long long result = 0;
-
+    int t, n;
     cin >> t;
-    while (t--) {
-        result = 0;
-        cin >> n;
-        for (int i = 1; i <= n; i++) {
-            result += (n / i) * i;
+    
+    for (int i = 1; i <= MAX; i++) {
+        for (int j = 1; i * j <= MAX; j++) {
+            arr[i * j] += i;
         }
-
-        v.push_back(result);
+        arr[i] += arr[i - 1];
     }
 
-    for (int i = 0; i < v.size(); i++) {
-        cout << v[i] << '\n';
+    for (int i = 0; i < t; i++) {
+        cin >> n;
+        cout << arr[n] << endl;
     }
+    
 }
