@@ -1,22 +1,18 @@
 #include <iostream>
-#include <cmath>
+#include <algorithm>
 using namespace std;
 
 int dp[1000];
-bool numbers[100001];
 
-void init() {
-    numbers[1] = true;
-    for (int i = 2; i * i <= 100000; i++) {
-        numbers[i * i] = true;
-    }
-}
 int main() {
-    init();
-
     int n;
     cin >> n;
-    for (int i = n; i > 0; i++) {
-
+    for (int i = 1; i <= n; i++) {
+        dp[i] = i;
+        
+        for (int j = 1; j * j <= i; j++) {
+            dp[i] = min(dp[i], dp[i - j * j] + 1);
+        }
     }
+    cout << dp[n];
 }

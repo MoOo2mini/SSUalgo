@@ -17,7 +17,11 @@ int main() {
 
     long long count = 0;
     long long max = 0;
-    long long result = 0;
+    long long result = v[0];
+    if (n == 1) {
+        cout << v[0];
+        return 0;
+    }
     for (int i = 0; i < n - 1; i++) {
         if (v[i] == v[i + 1]) {
             count++;
