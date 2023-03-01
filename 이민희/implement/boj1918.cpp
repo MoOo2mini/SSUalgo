@@ -51,7 +51,7 @@ void checkLetter(char c) {
     if (isp <= icp) {
         // if (stack.back() != '(') cout << stack.back();
         // stack.pop_back();
-        while (!stack.empty()) {
+        while (!stack.empty() && top) {
             if (stack.back() != '(') cout << stack.back();
             stack.pop_back(); 
         }
