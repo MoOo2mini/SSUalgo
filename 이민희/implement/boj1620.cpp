@@ -2,9 +2,9 @@
 #include <map>
 #include <vector>
 using namespace std;
-int n, M;
 
 int main() {
+    int n, M;
     cin >> n >> M;
     string tmp;
     map<string, int> m;

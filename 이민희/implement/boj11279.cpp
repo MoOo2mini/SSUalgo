@@ -16,7 +16,7 @@ int main() {
                 cout << 0 << '\n';
             } else {
                 cout << q.top() << '\n';
-                q.pop_back();
+                q.pop();
             }
         } else {
             q.push(tmp);
