@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 #define INF 987654321
@@ -38,6 +39,7 @@ int find_logic(vector<int> v) {
 int main() {
     int T, tmp;
     cin >> T;
+    vector<int> answer;
 
     while (T--) {
         vector<int> v;
@@ -48,6 +50,10 @@ int main() {
         }
 
         // find logic
-        cout << find_logic(v) << endl;
+        answer.push_back(find_logic(v));
+    }
+
+    for (int i = 0; i < answer.size(); i++) {
+        cout << answer[i] << endl;
     }
 }
