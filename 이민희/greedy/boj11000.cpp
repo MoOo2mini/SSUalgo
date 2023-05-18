@@ -1,60 +1,42 @@
 #include <iostream>
-#include <vector>
+#include <queue>
 #include <algorithm>
 using namespace std;
-int cr[200000 + 1];
 
 bool comp(pair<int, int> a, pair<int, int> b) {
-    if (a.second <= b.second) {
-        return true;
-    }
-    return false;
+    return a.second < b.second;
 }
 
 int main() {
-    int n; cin >> n;
-    int a, b;
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
 
-    vector<pair<int, int> > tmp;
+    int n, s, t;
+    cin >> n;
+    vector<pair<int, int> > v;
+    priority_queue<int, vector<int>, greater<int> > pq;
+
     for (int i = 0; i < n; i++) {
-        cin >> a >> b;
-        tmp.push_back(make_pair(a, b));
+        cin >> s >> t;
+        v.push_back(make_pair(s, t));
     }
 
-    sort(tmp.begin(), tmp.end(), comp);
+    sort(v.begin(), v.end());
+
+    cout << endl;
+    for (int i = 0; i < n; i++) {
+        cout << v[i].first << " " << v[i].second << endl;
+    }
+
+    pq.push(v[0].second);   //젤 첫수업의 끝나는 시간을 먼저 추가
     
-    // cout << "sorting" << endl;
-    // for (int i = 0; i < n; i++) {
-    //     cout << tmp[i].first << " " << tmp[i].second << endl;
-    // }
-
-    int room = 0;
-    int gap = 0;
-    int minGap = 200001;
-    int minIdx = -1;
-    for (int i = 0; i < tmp.size(); i++) {
-        minGap = 200001;
-        minIdx = -1;
-        gap = 0;
-        for (int idx = 0; idx <= room; idx++) {
-            gap = tmp[i].first - cr[idx];
-            if (gap < minGap && gap >= 0) {
-                // cout << "mingap : " << gap << endl;
-                minGap = gap;
-                minIdx = idx;
-            } else {
-                // cout << "invalid gap : " << gap << "i : " << i << endl;
-            }
+    for(int i = 1; i < n; i++){
+        if(v[i].first >= pq.top()){
+            pq.pop();
+            pq.push(v[i].second);
         }
-        if (minIdx == -1) {
-            // cout << "invalid in" << endl;
-            room++;
-            minIdx = room;
-        }
-
-        cr[minIdx] = tmp[i].second;
-        // cout << minIdx << ", " << tmp[i].second << endl;
+        else pq.push(v[i].second);
     }
-
-    cout << room + 1 << endl;
+    cout << pq.size();
 }
