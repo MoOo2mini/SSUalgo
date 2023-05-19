@@ -16,7 +16,6 @@ void solve(){
         cin>>tmp;
         v.push_back(tmp);
     }
-
     //sort(v.begin(), v.end());
     auto left = v.begin();
     auto right = v.begin();
