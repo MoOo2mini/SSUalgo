@@ -1,23 +1,63 @@
 #include <iostream>
-#include <algorithm>
+#include <vector>
 using namespace std;
-int arr[100001]; 
-int N, S;
-int main(){
-    cin >> N >> S;
-    for(int i = 1; i <= N; i++) cin >> arr[i];
+long n, s;
 
-    int start = 1, end = 1, sum = arr[1], ans = 987654321;
-    while(start <= end && end <= N) {
-        if(sum >= S) ans = min(ans, (end-start+1));
-        if(sum < S) {
-            end++; 
-            sum += arr[end];
-        } else {
-            sum -= arr[start];
-            start++;
+int main() {
+    cin >> n >> s;
+    vector<long> v;
+    long minV = n + 1;
+    long cnt;
+    long tmp;
+
+    long sum = 0;
+    for (int i = 0; i < n; i++) {
+        cin >> tmp;
+        sum += tmp;
+        if (tmp == s) {
+            cout << 1;
+            exit(0);
+        }
+        v.push_back(tmp);
+    }
+    if (sum < s) {
+        cout << 0;
+        exit(0);
+    } else if (sum == s) {
+        cout << n;
+        exit(0);
+    }
+
+    long num = 0;
+    for (int i = 0; i < n; i++) {
+        cnt = 0;
+        int idx = i;
+        while (num < s) {
+            // cout << "idx : " << idx << " v[idx] : " << v[idx] << endl;
+            num += v[idx];
+            idx++;
+            cnt++;
+        }
+        if (num == s) {
+            if (cnt < minV && cnt != 0) {  
+                minV = cnt;
+            }
+        }
+        if (num > s) {
+            // cout << "in" << endl;
+            num = 0;
+            continue;
+        }
+
+        if (minV == 2) {
+            cout << 2;
+            exit(0);
         }
     }
-    if(ans == 987654321) cout << "0";
-    else cout << ans;
+
+    if (minV != n + 1) {
+        cout << minV;
+    } else {
+        cout << 0;
+    }
 }

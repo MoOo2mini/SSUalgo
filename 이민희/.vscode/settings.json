@@ -65,6 +65,7 @@
         "variant": "cpp",
         "__tree": "cpp",
         "map": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "list": "cpp"
     }
 }
