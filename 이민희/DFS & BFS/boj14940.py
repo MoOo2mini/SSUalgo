@@ -47,5 +47,5 @@ for i in range(a) :
             answerMap[i][j] = -1
     
 for i in answerMap :
-    print(i)
+    print(*i)
 
