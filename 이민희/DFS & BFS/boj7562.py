@@ -1,13 +1,3 @@
-# 3
-# 8
-# 0 0
-# 7 0
-# 100
-# 0 0
-# 30 50
-# 10
-# 1 1
-# 1 1
 from collections import deque
 import sys
 input = sys.stdin.readline
