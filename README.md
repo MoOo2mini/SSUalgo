@@ -31,6 +31,6 @@
 <img align='right' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ssoxong">
 
 ```
-👉 github link : .
+👉 github link : https://github.com/ssoxong
 👉 boj id : ssoxong
 ```
