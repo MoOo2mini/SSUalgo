@@ -17,6 +17,7 @@
 ```
 👉 github link : https://github.com/coolpiece
 👉 boj id : audxkawjd17
+👉 blog : 
 ```
 # 
 **이예슬**   
