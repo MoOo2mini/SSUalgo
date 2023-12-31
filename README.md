@@ -26,6 +26,7 @@
 ```
 👉 github link : https://github.com/yes-ee
 👉 boj id : lur100
+👉 blog : 
 ```
 # 
 **이소현**   
