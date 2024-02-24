@@ -33,13 +33,13 @@ def bfs(x, y):
             if 0 <= ii and ii < N and 0 <= jj and jj < N and visited[ii][jj] == 0:
 				# 5. 간선은 상하 좌우지만 조건에 따라서 움직이기 때문에 조건을 상세하여야한다.
                 if space[x][y] > space[ii][jj] and space[ii][jj] != 0:
-                    visited[ii][jj] =  1
+                    visited[ii][jj] =  visited[i][j] + 1
                     cand.append((visited[ii][jj] - 1, ii, jj))
                 elif space[x][y] == space[ii][jj]:
-                    visited[ii][jj] =  1
+                    visited[ii][jj] =  visited[i][j] + 1
                     queue.append([ii,jj])
                 elif space[ii][jj] == 0:
-                    visited[ii][jj] =  1
+                    visited[ii][jj] =  visited[i][j] + 1
                     queue.append([ii,jj])
                     
 	# 6. 후보 리스트는 우선 순위가 있기 때문에 정렬을 사용할 수 있다.
