@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9c0ef1-3404-4f69-9264-2926aa3e838e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/이민희.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/boj17140.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/boj20057.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/boj20058.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS &amp; BFS/boj17141.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/boj17142.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/boj17142_other.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/이민희.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/이민희.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNA_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNA_2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../이소현/0template.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../이소현/1149.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../이소현/11726.cpp" beforeDir="false" />
@@ -119,136 +120,18 @@
       <change beforePath="$PROJECT_DIR$/../한서윤/class2/1920.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../한서윤/class2/1966.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../한서윤/class2/2164.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 1/10250.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 1/10757.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 1/1193.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 1/1712.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 1/2292.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 1/2775.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 1/2839.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 1/2869.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 2/11653.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 2/1929.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 2/1978.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 2/2581.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 2/4948.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 2/6588.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기본 수학 2/9020.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기하 1/1002.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기하 1/1004.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기하 1/1085.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기하 1/1358.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기하 1/2477.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기하 1/3009.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기하 1/3053.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/기하 1/4153.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/10809.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/1152.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/1157.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/11654.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/11720.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/1316.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/2675.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/2908.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/2941.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/문자열/5622.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/브루트 포스/1018.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/브루트 포스/1436.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/브루트 포스/2231.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/브루트 포스/2798.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/브루트 포스/7568.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1 (연습)/11057.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1 (연습)/1309.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1 (연습)/15988.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/10844.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/11052.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/11053.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/11726.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/11727.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/14002.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/1463.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/15990.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/16194.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/1699.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/1912.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/2193.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/2225.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/다이나믹 프로그래밍 1/9095.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (연습)/1212.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (연습)/1373.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (연습)/17087.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (연습)/17103.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (연습)/2089.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (연습)/9613.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (참고)/11005.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (참고)/11576.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/수학 1 (참고)/2745.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (연습)/10799.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (연습)/17298.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (연습)/17299.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (연습)/17413.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (참고)/10808.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (참고)/10820.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (참고)/10824.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (참고)/11655.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (참고)/1918.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (참고)/1935.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1 (참고)/2743.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/10828_stack.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/10828_vector.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/10845.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/10866.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/1158.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/1406.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/1874.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/9012.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/알고리즘 기초 1/자료구조 1/9093.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/재귀/10870.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/재귀/10872.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/재귀/11729.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/재귀/17478.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/재귀/2447.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/10814.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/10989.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/11650.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/11651.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/1181.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/1427.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/18870.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/2108.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/2750_bubble.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/2750_insertion.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/2750_selection.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/2751_STLsort.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/2751_heap.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/2751_merge.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정렬/2751_quick.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/1010.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/1037.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/11050.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/11051.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/1676.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/1934.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/2004.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/2609.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/2981.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/3036.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/5086.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/정수론 및 조합론/9375.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/집합과 맵/10815.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/집합과 맵/10816.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/집합과 맵/11478.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/집합과 맵/1269.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/집합과 맵/14425.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/집합과 맵/1620.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/집합과 맵/1764.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/함수/1065.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../한서윤/함수/4673.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -256,9 +139,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2HkOlzOgHIpb66q1dzBwx9ViG16" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -271,6 +154,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.boj17140.executor": "Debug",
+    "Python.boj17141.executor": "Debug",
+    "Python.boj17142.executor": "Debug",
+    "Python.boj17142_other.executor": "Debug",
     "Python.boj20057.executor": "Debug",
     "Python.boj20058.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -286,7 +172,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -351,6 +238,26 @@
           <line>62</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/boj17140.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mapping.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/boj17142_other.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/boj17142_other.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -360,5 +267,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="dx" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
