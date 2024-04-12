@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9c0ef1-3404-4f69-9264-2926aa3e838e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DFS &amp; BFS/boj17141.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/boj17142.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/boj17142_other.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/boj17825.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/breakingTop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/codetree_breakingTop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/codetree_mazeRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/royalKnightDuel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/royalKnightDuel2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/이민희.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/이민희.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNA_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNA_2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../이소현/0template.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../이소현/1149.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../이소현/11726.cpp" beforeDir="false" />
@@ -157,8 +157,13 @@
     "Python.boj17141.executor": "Debug",
     "Python.boj17142.executor": "Debug",
     "Python.boj17142_other.executor": "Debug",
+    "Python.boj17825.executor": "Debug",
     "Python.boj20057.executor": "Debug",
     "Python.boj20058.executor": "Debug",
+    "Python.codetree_breakingTop.executor": "Debug",
+    "Python.codetree_mazeRunner.executor": "Debug",
+    "Python.royalKnightDuel.executor": "Run",
+    "Python.royalKnightDuel2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -257,6 +262,61 @@
           <url>file://$PROJECT_DIR$/implement/boj17142_other.py</url>
           <line>43</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_breakingTop.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_breakingTop.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_breakingTop.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_mazeRunner.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_mazeRunner.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_mazeRunner.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_mazeRunner.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_mazeRunner.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/codetree_mazeRunner.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/royalKnightDuel.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/royalKnightDuel.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="172" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
