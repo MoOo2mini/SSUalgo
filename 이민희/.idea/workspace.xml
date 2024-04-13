@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9c0ef1-3404-4f69-9264-2926aa3e838e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/boj17825.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/breakingTop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/codetree_breakingTop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/codetree_mazeRunner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/royalKnightDuel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implement/royalKnightDuel2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS &amp; BFS/boj14501.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/spin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implement/swea_사재기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../이소현/0template.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../이소현/1149.cpp" beforeDir="false" />
@@ -153,6 +148,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.boj14501.executor": "Run",
     "Python.boj17140.executor": "Debug",
     "Python.boj17141.executor": "Debug",
     "Python.boj17142.executor": "Debug",
@@ -164,6 +160,8 @@
     "Python.codetree_mazeRunner.executor": "Debug",
     "Python.royalKnightDuel.executor": "Run",
     "Python.royalKnightDuel2.executor": "Run",
+    "Python.spin.executor": "Debug",
+    "Python.swea_사재기.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -317,6 +315,21 @@
           <url>file://$PROJECT_DIR$/implement/royalKnightDuel.py</url>
           <line>162</line>
           <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS &amp; BFS/boj14501.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/spin.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/implement/spin.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="200" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
