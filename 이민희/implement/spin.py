@@ -144,7 +144,6 @@ for instr in instruction :
             rock.pop(d - 1)
 
     rock = countRocks(rock)
-    rock = rock[:(N**2 - 1)]
     # arr에 다시 그리기
     arr = [[0 for i in range(N)] for i in range(N)]
     rock.insert(0, 0)
